@@ -1,0 +1,11 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+
+    defaultConfig {
+        applicationId "com.example.android.deviceconfig"
+        minSdkVersion 15
+        targetSdkVersion 22 // for 23 next need to update permission model to handle camera.open
+    }
+}
